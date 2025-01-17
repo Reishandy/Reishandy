@@ -25,6 +25,6 @@ I am a Full-stack developer with proficiency in backend APIs (mostly FastAPI) an
 ## Also, Michiru ~~~
 <p align="center">
 <a href="https://github.com/Reishandy">
-  <img height="180em" src="https://grisaia.fandom.com/wiki/Michiru_Matsushima"/>
+  <img height="" src="michiru.png"/>
 </a>
 </p>
