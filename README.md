@@ -6,6 +6,8 @@ Currently pursuing bachelor degree in Computer Science at [UNIWARA](https://uniw
 
 I am a Full-stack developer with proficiency in backend APIs (mostly FastAPI) and frontend with native PHP, JavaScript and Android (Jetpack Compose)
 
+Also managed my own home lab running on barebone Arch Linux where all of my recent projects / website are hosted, safe to say I have quite a bit of experience on that matter.
+
 ### Love learning new things ~~~
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
