@@ -22,9 +22,5 @@ I am a Full-stack developer with proficiency in backend APIs (mostly FastAPI) an
 [![Gmail Badge](https://img.shields.io/badge/-akbar@reishandy.my.id-blue?style=flat-roundedrectangle&logo=Gmail&logoColor=white&link=mailto:akbar@reishandy.my.id)](mailto:akbar@reishandy.my.id)
 [![Instagram Badge](https://img.shields.io/badge/-reishnady-E4405F?style=flat-roundedrectangle&logo=linkedin&logoColor=white&link=https://reishandy.my.id/)](https://reishandy.my.id/)
 
-## Also, Michiru ~~~
-<p align="center">
-<a href="https://github.com/Reishandy">
-  <img height="" src="michiru.png"/>
-</a>
-</p>
+
+<iframe src="https://comment-section.reishandy.my.id" width="80%" height="100%" style="border: 0"></iframe>
