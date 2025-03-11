@@ -19,6 +19,10 @@ Also managed my own home lab running on barebone Arch Linux where all of my rece
 </a>
 </p>
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Reishandy/Reishandy/refs/heads/output/github-contribution-grid-snake-dark.svg">
+</div>
+
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 <div width="100%" style="border-top: 3px solid #007bff; padding-top: 15px; font-family: Arial, sans-serif; font-size: 14px; color: #333;">
