@@ -1,41 +1,22 @@
-<h1 align="center">Hello There</h1>
+# About Me:
+A passionate and results-oriented developer with a strong focus on full-stack web and mobile development. <br>I have a proven ability to build robust applications using modern technologies like FastAPI, Jetpack Compose, MongoDB and Laravel. My projects, ranging from a secure chat app to a project management web app, demonstrate my commitment to creating clean, efficient, secure, and user-friendly solutions. I thrive in collaborative environments and am always eager to learn and take on new challenges.
 
-### Just your usual student dev here ~~~
 
-Currently pursuing bachelor degree in Computer Science at [UNIWARA](https://uniwara.ac.id/)
+## Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ruxury_nyaa) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/reishandy) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:akbar@reishandy.my.id) 
 
-I am a Full-stack developer with proficiency in backend APIs (mostly FastAPI) and frontend with native PHP, JavaScript and Android (Jetpack Compose)
+# Tech Stack:
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![DaisyUI](https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white) ![AMD](https://img.shields.io/badge/AMD-%23000000.svg?style=for-the-badge&logo=amd&logoColor=white) ![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black) ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)
 
-Also managed my own home lab running on barebone Arch Linux where all of my recent projects / website are hosted, safe to say I have quite a bit of experience on that matter.
+# GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=Reishandy&theme=radical&hide_border=true&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Reishandy&theme=radical&hide_border=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Reishandy&theme=radical&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-### Love learning new things ~~~
+## itHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Reishandy&theme=radical&no-frame=true&no-bg=true&margin-w=4)
 
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
- 
-<p align="center">
-<a href="https://github.com/Reishandy">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=reishandy&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=reishandy&layout=compact&langs_count=8&theme=algolia"/>
-</a>
-</p>
+---
+[![](https://visitcount.itsvg.in/api?id=Reishandy&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<div align="center">
-    <img src="https://raw.githubusercontent.com/Reishandy/Reishandy/refs/heads/output/github-contribution-grid-snake-dark.svg">
-</div>
-
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-
-<div width="100%" style="border-top: 3px solid #007bff; padding-top: 15px; font-family: Arial, sans-serif; font-size: 14px; color: #333;">
-    <div align="center">
-        <strong style="font-size: 26px; color: #007bff;">Muhammad Akbar Reishandy</strong><br>
-        <span style="color: #555;">Software Developer</span>
-    </div>
-    <div align="center" style="padding: 10px 0;">
-        <a href="mailto:akbar@reishandy.my.id" style="color: #333; text-decoration: none;">
-            <img src="https://img.icons8.com/ios-filled/20/007bff/email.png" style="vertical-align: middle;"> akbar@reishandy.my.id
-        </a><br>
-        <a href="https://reishandy.my.id" style="color: #333; text-decoration: none;">
-            <img src="https://img.icons8.com/ios-filled/20/007bff/globe.png" style="vertical-align: middle;"> reishandy.my.id
-        </a>
-    </div>
-</div> 
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
