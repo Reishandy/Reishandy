@@ -3,7 +3,7 @@ Full-stack developer specializing in secure, scalable web and mobile solutions. 
 - 🛡️ Building security-first applications
 - 🚀 Delivering optimized solutions
 - 🐧 Linux enthusiast (Daily-driving Arch with custom Hyprland setups) (I use Arch btw)
-- 🗄️ Running managed home lab server (Cloudflare and Arch)
+- 🗄️ Running managed home lab server (Cloudflare, Docker, Nginx running on Arch)
 
 **Notable Projects:**  
 ✔️ Secure E2E-encrypted chat app  
