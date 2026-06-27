@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Muhammad Akbar Reishandy</title>
+    <style>
+        :root {
+            --bg-color: #f9fafb;
+            --text-color: #111827;
+            --muted-text: #6b7280;
+            --border-color: #e5e7eb;
+            --accent-color: #007aff;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem 1.5rem;
+        }
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+        h1 { 
+            font-size: 2.5rem; 
+            margin-bottom: 0.25rem; 
+            letter-spacing: -0.02em; 
+        }
+        h2 { 
+            font-size: 1.5rem; 
+            margin-top: 3rem; 
+            border-bottom: 1px solid var(--border-color); 
+            padding-bottom: 0.5rem; 
+            font-weight: 600;
+        }
+        h3 { 
+            font-size: 1.15rem; 
+            margin-top: 1.5rem; 
+            font-weight: 600;
+        }
+        p { margin-top: 1rem; }
+        .last-updated { 
+            color: var(--muted-text); 
+            font-size: 0.9rem; 
+            margin-bottom: 3rem; 
+        }
+        a { 
+            color: var(--accent-color); 
+            text-decoration: none; 
+        }
+        a:hover { text-decoration: underline; }
+        footer { 
+            margin-top: 5rem; 
+            padding-top: 2rem; 
+            border-top: 1px solid var(--border-color); 
+            text-align: center; 
+            color: var(--muted-text); 
+            font-size: 0.875rem; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last Updated: June 27, 2026</p>
+
+        <section id="general">
+            <h2>The General Philosophy</h2>
+            <p>I build software with a strict respect for your personal space. My approach to privacy is simple and uncompromising: <strong>I do not harvest, sell, or monetize your data.</strong></p>
+            <p>Whenever possible, data is processed and stored entirely locally on your device. In cases where my applications interact with a server, it is strictly to provide core functionality. I do not implement third-party analytics tracking, I do not log telemetry, and I do not build profiles on my users.</p>
+            <p>If an app doesn't need your data to function, it doesn't ask for it.</p>
+        </section>
+
+        <section id="youribeaconsimulator">
+            <h2>Your iBeacon Simulator</h2>
+            <p>Your iBeacon Simulator requires specific permissions to function correctly, and it is important you understand why they are needed and how they are used.</p>
+            
+            <h3>Location & Background Access</h3>
+            <p>This app requests "Always" location access. This is a technical requirement imposed by iOS to utilize Core Location's region monitoring for iBeacons in the background. Without this permission, the app cannot automatically check you in when you approach a room while the app is closed or your phone is locked.</p>
+            
+            <h3>Local Processing</h3>
+            <p>Your precise location data (GPS coordinates) is <strong>never</strong> tracked, stored, or transmitted to any server. The app only listens for the presence of specific, predefined Bluetooth iBeacons. When an iBeacon is detected, the app sends a stateless, anonymous payload to the local server to confirm your presence in that specific room. No continuous location history is maintained.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you have any questions regarding this policy, you can reach me at <a href="mailto:akbar@reishandy.id">akbar@reishandy.id</a>.</p>
+        </section>
+
+        <footer>
+            &copy; 2026 Muhammad Akbar Reishandy. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
