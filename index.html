@@ -6,79 +6,285 @@
     <title>Privacy Policy | Muhammad Akbar Reishandy</title>
     <style>
         :root {
-            --bg-color: #f9fafb;
+            --bg-color: #ffffff;
             --text-color: #111827;
             --muted-text: #6b7280;
-            --border-color: #e5e7eb;
-            --accent-color: #007aff;
+            --border-color: #eaeaea;
+            --accent-color: #000000;
+            --matte-hover: #f9f9f9;
         }
 
         body {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
-            line-height: 1.6;
+            line-height: 1.7;
             margin: 0;
-            padding: 2rem 1.5rem;
+            padding: 3rem 1.5rem;
+            -webkit-font-smoothing: antialiased;
         }
+        
         .container {
-            max-width: 650px;
+            max-width: 680px;
             margin: 0 auto;
         }
-        h1 { font-size: 2.5rem; margin-bottom: 0.25rem; letter-spacing: -0.02em; }
-        h2 { font-size: 1.5rem; margin-top: 3rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; font-weight: 600; }
-        h3 { font-size: 1.15rem; margin-top: 1.5rem; font-weight: 600; }
-        p { margin-top: 1rem; }
-        .last-updated { color: var(--muted-text); font-size: 0.9rem; margin-bottom: 3rem; }
-        a { color: var(--accent-color); text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--border-color); text-align: center; color: var(--muted-text); font-size: 0.875rem; }
+
+        h1 { 
+            font-size: 2.75rem; 
+            margin-bottom: 0.5rem; 
+            letter-spacing: -0.03em; 
+            font-weight: 700;
+        }
+        
+        h2 { 
+            font-size: 1.25rem; 
+            margin-top: 4rem; 
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--muted-text);
+            font-weight: 600; 
+        }
+        
+        h3 { 
+            font-size: 1.1rem; 
+            margin-top: 2rem; 
+            font-weight: 600; 
+            color: var(--accent-color);
+        }
+        
+        p, li { 
+            margin-top: 1rem; 
+            color: #374151;
+        }
+        
+        a { 
+            color: var(--accent-color); 
+            text-decoration: underline; 
+            text-decoration-thickness: 1px;
+            text-underline-offset: 4px;
+        }
+        
+        a:hover { 
+            color: var(--muted-text); 
+        }
+
+        /* Minimalist Metadata Grid */
+        .metadata-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2.5rem;
+            padding: 2rem 0;
+            margin: 2rem 0;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+        
+        .meta-item strong {
+            color: var(--accent-color);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        
+        .meta-item span {
+            font-size: 0.95rem;
+            color: var(--muted-text);
+        }
+
+        .philosophy-text {
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+        }
+
+        /* Modern Seamless Collapsibles */
+        details {
+            border-bottom: 1px solid var(--border-color);
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        /* The first details element gets a top border too */
+        details:first-of-type {
+            border-top: 1px solid var(--border-color);
+        }
+        
+        summary {
+            cursor: pointer;
+            font-size: 1.25rem;
+            font-weight: 500;
+            padding: 1.5rem 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.2s ease;
+            letter-spacing: -0.01em;
+        }
+        
+        summary:hover {
+            background-color: var(--matte-hover);
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            margin-left: -0.5rem;
+            margin-right: -0.5rem;
+            border-radius: 6px;
+        }
+        
+        summary::-webkit-details-marker {
+            display: none;
+        }
+        
+        summary::after {
+            content: '+';
+            color: var(--muted-text);
+            font-size: 1.25rem;
+            font-weight: 300;
+            transition: transform 0.3s ease;
+        }
+        
+        details[open] summary::after {
+            transform: rotate(45deg);
+            color: var(--accent-color);
+        }
+
+        .details-content {
+            padding: 0 0 2rem 0;
+            animation: fadeIn 0.4s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Footer */
+        footer { 
+            margin-top: 6rem; 
+            padding-top: 2rem; 
+            text-align: left; 
+            color: var(--muted-text); 
+            font-size: 0.85rem; 
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="last-updated">Last Updated: June 27, 2026</p>
+        
+        <!-- SECTION 1: General Philosophy & Metadata -->
+        <div class="metadata-grid">
+            <div class="meta-item">
+                <strong>Last Updated</strong>
+                <span>June 28, 2026</span>
+            </div>
+            <div class="meta-item">
+                <strong>Developer</strong>
+                <span>M. Akbar Reishandy</span>
+            </div>
+            <div class="meta-item">
+                <strong>Coverage</strong>
+                <span>1 Active Application</span>
+            </div>
+        </div>
+        
+        <p class="philosophy-text"><strong>The Philosophy:</strong> I build software with a strict respect for your personal space and a focus on metadata privacy. My approach is simple and uncompromising: <strong>I do not harvest, sell, or monetize your data.</strong> Whenever possible, data is processed and stored entirely locally. I do not implement third-party analytics tracking, I do not log usage telemetry, and I do not build profiles on my users.</p>
 
-        <section id="general">
-            <h2>The General Philosophy</h2>
-            <p>I build software with a strict respect for your personal space. My approach to privacy is simple and uncompromising: <strong>I do not harvest, sell, or monetize your data.</strong></p>
-            <p>Whenever possible, data is processed and stored entirely locally on your device. I do not implement third-party analytics tracking, I do not log usage telemetry, and I do not build profiles on my users.</p>
-            
-            <h3>Data Sharing</h3>
-            <p>I do not share any personal information with third parties. Because I do not collect data, there is no information to disclose, sell, or transfer.</p>
+        <!-- SECTION 2: Corporate Detailed Policy (Collapsible) -->
+        <h2>General Disclosures</h2>
+        <details id="detailed-policy">
+            <summary>Comprehensive Legal Policy</summary>
+            <div class="details-content">
+                <p>This section provides standard legal disclosures regarding data handling, intended for regulatory compliance.</p>
+                
+                <h3>1. Information Collection and Use</h3>
+                <p>For a better experience while using my services, I do not require you to provide any personally identifiable information unless strictly necessary for core functionality. Any information that is requested will be retained locally on your device and is not collected by me in any way.</p>
+                
+                <h3>2. Log Data</h3>
+                <p>Whenever you use my applications, in a case of an error, the app may collect data and information (through native OS crash reporters) on your phone called Log Data. This may include your device IP address, device name, operating system version, and crash timestamps. This is exclusively used for debugging and is never tied to your personal identity.</p>
+                
+                <h3>3. Cookies and Local Storage</h3>
+                <p>My services do not use "cookies" to track behavior across the web. Any local storage utilized is solely to save your local application states and preferences.</p>
+                
+                <h3>4. Service Providers</h3>
+                <p>I do not employ third-party companies or individuals to facilitate my services or perform service-related analytics. Your data footprint remains directly between you and the application.</p>
+                
+                <h3>5. Security</h3>
+                <p>Because my applications prioritize local processing, the risk of data exposure is minimized by design. I deploy standard cryptographic practices to ensure that any local data you store remains strictly within your control.</p>
+                
+                <h3>6. Children's Privacy</h3>
+                <p>These services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13.</p>
+            </div>
+        </details>
 
-            <h3>Security</h3>
-            <p>Because my applications prioritize local processing, the risk of data exposure is minimized. I employ industry-standard practices to ensure that any local data you store remains strictly within your control.</p>
+        <!-- SECTION 3: App-Specific Privacy Additions (Collapsible) -->
+        <h2>Application Specifics</h2>
+        
+        <details id="youribeaconsimulator" class="app-detail">
+            <summary>Your iBeacon Simulator</summary>
+            <div class="details-content">
+                <p style="color: var(--muted-text); font-size: 0.95rem; margin-top: 0;">The following clauses apply specifically to this application and supersede the general policy where noted.</p>
+                
+                <p>Your iBeacon Simulator is a developer utility designed to assist with testing and prototyping proximity-based features. It requires specific permissions to operate.</p>
+                
+                <h3>Bluetooth & Location Access</h3>
+                <p>This app requests Bluetooth and Location access solely to enable the broadcast (transmission) and discovery (ranging) of iBeacons. These permissions are strictly required by the iOS operating system to interface with the hardware necessary to simulate iBeacon signals for your testing environment.</p>
+                
+                <h3>Local Processing</h3>
+                <p>Your precise location data (GPS coordinates) is <strong>never</strong> tracked, stored, or transmitted to any server. The app only listens for the presence of specific, predefined Bluetooth iBeacons. No continuous location history is maintained. All simulation data is transient and exists only while the application is active.</p>
+            </div>
+        </details>
 
-            <h3>Children's Privacy</h3>
-            <p>My applications are not directed toward children under the age of 13. I do not knowingly collect personal information from anyone under the age of 13.</p>
-        </section>
-
-        <section id="youribeaconsimulator">
-            <h2>Your iBeacon Simulator</h2>
-            <p>Your iBeacon Simulator is a developer utility designed to assist with testing and prototyping proximity-based features. It requires specific permissions to operate, and I am committed to complete transparency regarding these requirements.</p>
-            
-            <h3>Bluetooth & Location Access</h3>
-            <p>This app requests Bluetooth and Location access solely to enable the broadcast (transmission) and discovery (ranging) of iBeacons. These permissions are strictly required by the iOS operating system to interface with the hardware necessary to simulate iBeacon signals for your testing environment.</p>
-            
-            <h3>Local Processing</h3>
-            <p>Your precise location data (GPS coordinates) is <strong>never</strong> tracked, stored, or transmitted to any server. The app only listens for the presence of specific, predefined Bluetooth iBeacons. No continuous location history is maintained. All simulation data is transient and exists only while the application is active.</p>
-        </section>
-
-        <section id="updates">
-            <h2>Updates to this Policy</h2>
-            <p>I may update this Privacy Policy from time to time to reflect changes in my development practices. I will notify you of any changes by updating the "Last Updated" date at the top of this page.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>If you have any questions regarding this policy, you can reach me at <a href="mailto:akbar@reishandy.id">akbar@reishandy.id</a>.</p>
+        <!-- Contact & Updates -->
+        <section id="contact" style="margin-top: 4rem;">
+            <h2>Contact & Support</h2>
+            <p>I may update this Privacy Policy to reflect changes in my development practices. I will notify you of any changes by updating the metadata at the top of this page.</p>
+            <p>If you have any questions regarding this policy, or concerns about your metadata, you can reach me at <a href="mailto:akbar@reishandy.id">akbar@reishandy.id</a>.</p>
         </section>
 
         <footer>
             &copy; 2026 Muhammad Akbar Reishandy. All rights reserved.
         </footer>
     </div>
+
+    <!-- Script to handle URL #hash opening -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const openTargetSection = (hash) => {
+                if (!hash) return;
+                const target = document.querySelector(hash);
+                if (target && target.tagName === 'DETAILS') {
+                    target.open = true;
+                    setTimeout(() => {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 50);
+                }
+            };
+
+            openTargetSection(window.location.hash);
+
+            window.addEventListener('hashchange', () => {
+                openTargetSection(window.location.hash);
+            });
+
+            const appDetails = document.querySelectorAll('.app-detail');
+            appDetails.forEach(detail => {
+                detail.addEventListener('toggle', (e) => {
+                    if (detail.open) {
+                        history.replaceState(null, null, '#' + detail.id);
+                    } else if (window.location.hash === '#' + detail.id) {
+                        history.replaceState(null, null, window.location.pathname);
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
